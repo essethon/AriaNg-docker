@@ -26,5 +26,6 @@ EXPOSE 6800
 WORKDIR /data
 
 ENV RPC_SECRET=yourtoken
+ENV ALL_PROXY=
 
 CMD [ "/run.sh" ]
